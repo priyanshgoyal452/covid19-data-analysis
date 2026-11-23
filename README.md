@@ -1,19 +1,62 @@
-# Covid-19 Data Analysis Using Python
+# COVID-19 Data Analysis and Visualization
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+## Project Overview
 
----
-The COVID-19 Data Analysis GitHub repository is a comprehensive collection of analyses and visualizations related to the global COVID-19 pandemic. It includes Jupyter Notebooks that showcase the step-by-step analysis process, curated datasets, and scripts for data preprocessing and visualization.The repository serves as a valuable resource for researchers, analysts, and anyone interested in understanding the spread and impact of COVID-19. It offers data-driven insights, facilitates further exploration of the pandemic, and supports evidence-based decision-making in mitigating its effects on public health.
+An end-to-end data analytics project examining historical COVID-19 statistics from January to July 2020 using Python and Power BI.
 
----
+## Tools and Technologies
 
-> 📌 In this project, I collected reliable COVID-19 datasets from trusted sources and performed an in-depth analysis to gain insights into the pandemic. Here's how I approached it:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Power BI
+- DAX
+- Jupyter Notebook
 
-1. 📝Data Collection: Gathered relevant COVID-19 datasets from government health departments and trusted data repositories.
-2. 🌐Data Cleaning and Preparation: Processed the data, handling missing values and ensuring suitable formats for analysis.
-3. 🧹 Exploratory Data Analysis (EDA): Used Python libraries like Pandas, NumPy, and Matplotlib/Seaborn to explore and visualize the data, uncovering trends and patterns.
-4. 🪄Feature Engineering: Created new features and derived meaningful metrics to enhance the analysis, such as daily new cases and growth rates.
-5. ⚒️Statistical Analysis: Applied statistical techniques to identify correlations, perform hypothesis testing, and discover significant factors related to COVID-19 spread.
-6. 📊Building the Dashboard in Power BI (Working on it).
+## Dataset
+
+- Source: [Corona Virus Report – Kaggle](https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
+- Based on Johns Hopkins University COVID-19 data.
+- Analysis period: January 22 – July 27, 2020.
+
+## Project Workflow
+
+1. Data collection and inspection
+2. Data cleaning and preprocessing
+3. Data quality validation
+4. Exploratory data analysis
+5. Statistical and comparative analysis
+6. Data visualization using Python
+7. Interactive Power BI dashboard
+
+## Key Findings
+
+- The United States, Brazil and India recorded the highest cumulative confirmed case counts at the end of the analysis period.
+- The global reported recovery proportion was approximately 57.45%.
+- The global case fatality ratio was approximately 3.97%.
+- The Americas recorded the highest confirmed case count among WHO regions.
+- Data validation identified 18 negative active-case records, which were flagged while preserving the original reported values.
+
+## Power BI Dashboard
+
+The interactive dashboard includes:
+
+- Six dynamic KPI cards
+- Global COVID-19 trends
+- Top 10 affected countries
+- Case distribution
+- WHO region-wise analysis
+- Country, region and date slicers
+- DAX measures to avoid double counting cumulative records
+
+![COVID-19 Dashboard](dashboard.png)
+
+## Limitations
+
+This project uses historical reported data and does not represent current COVID-19 statistics. Reporting inconsistencies, population differences and testing rates may affect comparisons.
+
+## Conclusion
+
+This project demonstrates practical skills in data cleaning, exploratory data analysis, statistical interpretation, business intelligence and interactive dashboard development.
